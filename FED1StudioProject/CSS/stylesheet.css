@@ -1,0 +1,23 @@
+﻿body {
+}
+/*will assign the values background-color and font-weight to anything with the TAG header or ARTICLE*/
+header, article {
+    background-color: lightblue;
+    font-weight: bold;
+}
+/* will call the variable headingStyle and assign it the value font-size*/
+.headingStyle {
+    font-size: 24px;
+
+}
+/* will call the variable subHeading and assign it the value text-decoration, font-style, font-size*/
+.subHeading {
+    text-decoration: overline;
+    font-style: italic;
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: lightgray;
+}
