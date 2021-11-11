@@ -16,8 +16,15 @@ header, article {
     font-style: italic;
     font-size: 18px;
 }
+ /*
+     section {
+    
+    background-color: darkslateblue;
+}
 
+ */
 
+/* will assign the values background-color to any TAG of footer*/
 footer {
     background-color: lightgray;
 }
