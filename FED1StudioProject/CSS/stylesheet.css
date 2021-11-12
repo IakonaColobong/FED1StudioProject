@@ -31,14 +31,22 @@ ul {
 a {
     text-decoration: none !important;
     list-style: none;
+    font-weight: bold;
+    color: aliceblue;
 
 }
-/* Will style ONLY the main navigational bar to be horizontal*/
-#mainNav {
+a:link, a:hover {
+    color: royalblue;
+}
+/* Will style ONLY the main navigational bar to be horizontal. Calls on ID of mainNav specifies all li within*/
+ul#mainNav {
+    background-color: #000000;
+}
+#mainNav li {
     
     text-align: center;
     padding: .5em;
-    display: block;
+    display: inline;
 }
 footer {
     background-color: lightgray;
