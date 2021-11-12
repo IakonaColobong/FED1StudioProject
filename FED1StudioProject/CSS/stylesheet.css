@@ -25,6 +25,18 @@ header, article {
  */
 
 /* will assign the values background-color to any TAG of footer*/
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+header {
+    background-color: #7F8B99;
+    color:black;
+}
+body {
+    background-color: #CDBCE8;
+}
 ul {
     list-style: none;
 }
@@ -32,15 +44,16 @@ a {
     text-decoration: none !important;
     list-style: none;
     font-weight: bold;
-    color: aliceblue;
+    color: #E6D9A7;
 
 }
 a:link, a:hover {
-    color: royalblue;
+    color: black;
 }
 /* Will style ONLY the main navigational bar to be horizontal. Calls on ID of mainNav specifies all li within*/
 ul#mainNav {
-    background-color: #000000;
+    outline-style: solid;
+    background-color: #766099;
 }
 #mainNav li {
     
@@ -49,5 +62,9 @@ ul#mainNav {
     display: inline;
 }
 footer {
-    background-color: lightgray;
+    text-align: right;
+    background-color: #CDBCE8;
+    color: white;
+    font-style: italic;
+    
 }
