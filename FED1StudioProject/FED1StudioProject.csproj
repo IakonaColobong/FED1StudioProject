@@ -68,8 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Classes.html" />
+    <Content Include="code_test.html" />
     <Content Include="Contact.html" />
     <Content Include="CSS\stylesheet.css" />
+    <Content Include="images\Map.jpg" />
+    <Content Include="images\ring_center.jpg" />
     <Content Include="index.html" />
     <Content Include="Team.html" />
     <Content Include="Web.config" />
@@ -87,7 +90,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="JavaScript\" />
   </ItemGroup>
   <PropertyGroup>
