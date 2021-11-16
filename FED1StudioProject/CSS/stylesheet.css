@@ -27,7 +27,7 @@ body {
     font-style: italic;
     font-size: 18px;
 }
- /*
+/*
      section {
     
     background-color: darkslateblue;
@@ -40,38 +40,48 @@ body {
 h4 {
     margin-top: 0;
     margin-bottom: 0;
-
 }
 /* header {
     background-color: #7F8B99;
     color:black;*/
-}#intro {
+}
+
+#intro {
     color: white,
 }
+
 body {
     background-color: #CDBCE8;
 }
+
 nav ul {
     align-content: stretch;
 }
+
 ul {
     list-style: none;
+    text-align: right;
+    /*background-image: url('../images/mec32_one-ring_preview (2).jpg');*/
+    background-image: url('../images/black_gray_smoke.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 a {
     text-decoration: none !important;
     list-style: none;
     font-weight: bold;
     color: #E6D9A7;
-    
-
 }
+
 div .slogan {
     background-color: rgba(0, 0, 0, 0.0);
     padding: 0px;
     margin: 0px;
 }
+
 a:link, a:hover {
-    color: black;
+    color: white;
     text-decoration: underline;
 }
 /* Will style ONLY the main navigational bar to be horizontal. Calls on ID of mainNav specifies all li within*/
@@ -79,23 +89,21 @@ ul#mainNav {
     outline-style: solid;
     background-color: #766099;
 }
+
 #mainNav li {
-    
     text-align: center;
     padding: .5em;
     display: inline;
 }
-footer {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: right;
-    background-color: #CDBCE8;
-    color: white;
-    font-style: italic;
-}
-section p {
-   color: white;
 
+section p {
+    color: white;
 }
+
+.statement {
+    float: right;
+}
+
 h1 {
     font: 4.2em 'estonia', sans-serif;
     font-style: italic;
@@ -104,18 +112,20 @@ h1 {
     padding: 0px;
     margin: 0px;
 }
+
 h2 {
     font: 2em 'estonia', sans-serif;
     color: white;
     font-style: italic;
     padding: 0px;
     margin: 0px;
-
 }
+
 section {
     font: 1em verdana, geneva, sans-serif;
     line-height: 1.5em;
 }
+
 footer {
     width: 100%;
     bottom: 0;
@@ -123,4 +133,9 @@ footer {
     left: 0;
     height: 20px;
     background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
 }

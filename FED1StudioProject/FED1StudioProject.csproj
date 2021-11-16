@@ -71,7 +71,10 @@
     <Content Include="code_test.html" />
     <Content Include="Contact.html" />
     <Content Include="CSS\stylesheet.css" />
+    <Content Include="images\black_gray_smoke.jpg" />
+    <Content Include="images\dark_smoke.jpg" />
     <Content Include="images\Map.jpg" />
+    <Content Include="images\mec32_one-ring_preview %282%29.jpg" />
     <Content Include="images\ring_center.jpg" />
     <Content Include="index.html" />
     <Content Include="Team.html" />
