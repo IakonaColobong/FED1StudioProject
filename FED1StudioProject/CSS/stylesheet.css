@@ -126,6 +126,10 @@ section {
     line-height: 1.5em;
 }
 
+#attest {
+    color:aliceblue;
+}
+
 footer {
     width: 100%;
     bottom: 0;
@@ -138,4 +142,4 @@ footer {
     color: white;
     font-style: italic;
 }
-}
+
