@@ -77,6 +77,7 @@
     <Content Include="images\mec32_one-ring_preview %282%29.jpg" />
     <Content Include="images\ring_center.jpg" />
     <Content Include="index.html" />
+    <Content Include="JavaScript\mainjs.js" />
     <Content Include="Team.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -92,9 +93,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="JavaScript\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

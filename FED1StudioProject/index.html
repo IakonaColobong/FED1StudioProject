@@ -74,7 +74,31 @@
     <footer>
         &copy; Copyright Jason Colobong 2021 <br />
     </footer>
+    <!-- Side Buttons -->
+    <div id="sideButtons" class="button" onclick="openSideNav()">
+        <span class="vertical-text">LINKS</span>
+    </div>
+    <!-- Sidebar -->
+    <div id="side-nav" class="sidenav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeSideNav()">&times;</a>
+        <a href="index.html">index.html</a>
+        <a href="Classes.html">Classes</a>
+        <a href="Team.html">Team.html</a>
+        <a href="Contact.html">Contact.html</a>
+    </div>
 
+    <!-- Toogle sidebar nav -->
+    <script type="text/javascript">
+        function openSideNav() {
+            document.getElementById('sideButtons').style.display = "none";
+            document.getElementById('side-nav').style.width = "250px";
+        }
+        function closeSideNav() {
+            document.getElementById('sideButtons').style.display = "block";
+            document.getElementById('side-nav').style.width = "0";
+        }
+        </script>
+    <script src="JavaScript/mainjs"></script><!--Adds JS from JavaScript folder-->
 </body>
 
 </html>
