@@ -14,6 +14,17 @@ div .header-logo img {
     float: left;
 }
 
+
+
+.icon {
+    float: right;
+    
+    width: 5%;
+    height: auto;
+}
+
+
+
 .coName {
     color: black;
     font-size: 42px;
@@ -45,6 +56,8 @@ div .header-logo img {
     display: flex;
     width: 100%;
     display: block;
+    text-decoration: none;
+    
 }
 
     .navBar ul li {
@@ -52,12 +65,18 @@ div .header-logo img {
         font-size: 25px;
         top: 170px;
         left: 100px;
+        
+    }
+    
+    a {
+        text-decoration: none;
     }
 
 .links {
     display: block;
     word-spacing: 20px;
     letter-spacing: 10px;
+    
 }
 
     .links li:hover {

@@ -26,10 +26,21 @@
 
     <div class="navBar">
         <ul class="links">
-            <li>Home</li>
-            <li>Courses</li>
-            <li>Team</li>
-            <li>Contact</li>
+               <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+            <a href="classes.html">Courses</a>
+            </li>
+
+            <li>
+            <a href="team.html">Team</a>
+            </li>
+
+            <li>
+            <a href="contact.html">Contact</a>
+            </li>
         </ul>
     </div>
     <!-- end header/nav portion for evey page -->
