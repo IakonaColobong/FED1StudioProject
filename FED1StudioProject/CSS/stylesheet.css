@@ -1,199 +1,119 @@
-﻿
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Estonia&family=Hurricane&family=Nanum+Gothic+Coding&family=Padauk&display=swap');
-
-/*
-font-family: 'Architects Daughter', cursive;
-font-family: 'Estonia', cursive;
-font-family: 'Hurricane', cursive;
-font-family: 'Nanum Gothic Coding', monospace;
-font-family: 'Padauk', sans-serif;
-    */
-
-body {
+﻿body {
 }
-/*will assign the values background-color and font-weight to anything with the TAG header or ARTICLE*/
-/*header, article {
-    background-color: lightblue;
-    font-weight: bold;
-}*/
-/* will call the variable headingStyle and assign it the value font-size*/
-/*.headingStyle {
-    font-size: 24px;
+/*Logo section*/
+.header-main {
+    /*position: relative;*/
+    border-bottom: solid;
+    display: flex;
+}
 
-}*/
-/* will call the variable subHeading and assign it the value text-decoration, font-style, font-size*/
-.subHeading {
-    text-decoration: overline;
+div .header-logo img {
+    /*position: absolute;*/
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.coName {
+    color: black;
+    font-size: 42px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+.slogan {
+    clear: left;
+    color: black;
+    font-size: 22px;
     font-style: italic;
-    font-size: 18px;
-}
-/*
-     section {
-    
-    background-color: darkslateblue;
+    position: relative;
+    left: 295px;
+    bottom: 30px;
 }
 
- */
+/*.border {
+   background-color: rgb(58, 53, 49);
+   padding: 10px;
+   position: relative;
+   top: 140px;*/
 
-/* will assign the values background-color to any TAG of footer*/
 
-h4 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-/* header {
-    background-color: #7F8B99;
-    color:black;*/
 }
 
-#intro {
-    color: white,
-}
-
-body {
-    background-color: #CDBCE8;
-}
-
-nav ul {
-    align-content: stretch;
-}
-
-ul {
-    list-style: none;
-    text-align: right;
-    /*background-image: url('../images/mec32_one-ring_preview (2).jpg');*/
-    background-image: url('../images/black_gray_smoke.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-a {
-    text-decoration: none !important;
-    list-style: none;
-    font-weight: bold;
-    color: #E6D9A7;
-}
-
-div .slogan {
-    background-color: rgba(0, 0, 0, 0.0);
-    padding: 0px;
-    margin: 0px;
-}
-
-a:link, a:hover {
-    color: white;
-    text-decoration: underline;
-}
-/* Will style ONLY the main navigational bar to be horizontal. Calls on ID of mainNav specifies all li within*/
-ul#mainNav {
-    outline-style: solid;
-    background-color: #766099;
-}
-
-#mainNav li {
-    text-align: center;
-    padding: .5em;
-    display: inline;
-}
-
-section p {
-    color: white;
-}
-
-.statement {
-    float: right;
-}
-
-h1 {
-    font: 4.2em 'estonia', sans-serif;
-    font-style: italic;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.1) !important;
-    padding: 0px;
-    margin: 0px;
-}
-
-h2 {
-    font: 2em 'estonia', sans-serif;
-    color: white;
-    font-style: italic;
-    padding: 0px;
-    margin: 0px;
-}
-
-section {
-    font: 1em verdana, geneva, sans-serif;
-    line-height: 1.5em;
-}
-
-#attest {
-    color:aliceblue;
-}
-
-footer {
+.navBar {
+    display: flex;
     width: 100%;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    height: 20px;
-    background-color: black;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: white;
-    font-style: italic;
-}
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1030;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, .9);
-    overflow-x: hidden;
-    padding-top: 100px;
-    transition: .5s;
+    display: block;
 }
 
-    .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
+    .navBar ul li {
+        display: inline-block;
         font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: .3s;
+        top: 170px;
+        left: 100px;
     }
 
-        .sidenav a:hover {
-            color: #f1f1f1;
-        }
-
-.close-btn {
-    position: absolute;
-    top: 50px;
-    right: 25px;
-    font-size: 36px !important;
-    margin-left: 50px;
+.links {
+    display: block;
+    word-spacing: 20px;
+    letter-spacing: 10px;
 }
 
-.button {
-    font-family: sans-serif;
-    background: rgba(0, 0, 0, .5);
-    height: 100%;
-    width: 20px;
-    z-index: 1030;
-    position: fixed;
-    left: 0;
-    top: 0;
-    cursor: pointer;
+    .links li:hover {
+        background-color: gray;
+        color: white;
+        cursor: pointer;
+    }
+/*END header / nav section for every page*/
+
+.indexMain {
+    display: flex;
 }
 
-.vertical-text {
-    position: absolute;
-    top: 45%;
-    left: 0;
-    writing-mode: vertical-rl;
-    color: white;
-    font-weight: bold;
+.about {
+    /*border: 1em solid black;*/
+    position: relative;
+    left: 10%;
 }
 
+.aUs {
+    text-decoration: underline;
+    position: relative;
+    left: 500px;
+    top: 85px;
+}
+
+.intro {
+    display: block;
+    margin-left: 100px;
+    margin-right: 400px;
+    /*border: 3px solid black;*/
+    position: relative;
+}
+
+#introPara {
+    display: block;
+    font-size: 20px;
+    float: right;
+    display: block;
+    text-align: justify;
+    position: relative;
+    bottom: 118px;
+    left: 300px;
+}
+
+.why {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+}
+
+    .why #whyChoose {
+        display: block;
+        font-size: 52px;
+        text-align: center;
+        padding: 50px;
+        
+    }

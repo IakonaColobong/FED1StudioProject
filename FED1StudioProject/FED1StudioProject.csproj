@@ -67,18 +67,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Classes.html" />
-    <Content Include="code_test.html" />
-    <Content Include="Contact.html" />
-    <Content Include="CSS\stylesheet.css" />
-    <Content Include="images\black_gray_smoke.jpg" />
-    <Content Include="images\dark_smoke.jpg" />
-    <Content Include="images\Map.jpg" />
-    <Content Include="images\mec32_one-ring_preview %282%29.jpg" />
-    <Content Include="images\ring_center.jpg" />
+    <None Include="classes" />
+    <None Include="contact" />
+    <Content Include="CSS\StyleSheet.css" />
+    <Content Include="images\16707.png" />
+    <Content Include="images\logo2.jpg" />
+    <Content Include="images\Pastry.webp" />
+    <None Include="team" />
+    <Content Include="images\1200px-Sushi_chef_Masayoshi_Kazato_02.jpg" />
+    <Content Include="images\1529690483732.jpeg" />
+    <Content Include="images\200522-fine-dining-al-0903.jpg" />
+    <Content Include="images\become-chef.jpg" />
+    <Content Include="images\bg-block-plate %281%29.jpg" />
+    <Content Include="images\bg-block-plate.jpg" />
+    <Content Include="images\Boeuf-Bourguignon-1170x780-2-1170x780 FRENCH.jpg" />
+    <Content Include="images\channels4_profile.jpg" />
+    <Content Include="images\chef %281%29.jpg" />
+    <Content Include="images\Chef Colin Hazama.jpg" />
+    <Content Include="images\Chef Lee Anne Wong.jpeg" />
+    <Content Include="images\chef-300x200.jpg" />
+    <Content Include="images\Chef-Roy-Yamaguchi-Net-Worth-Wife-Restaurants.jpg" />
+    <Content Include="images\chefimage.jpg" />
+    <Content Include="images\CIV Sept 26.png" />
+    <Content Include="images\Greek.jpg" />
+    <Content Include="images\greek1.jpg" />
+    <Content Include="images\image-asset.jpeg" />
+    <Content Include="images\Indian.jpg" />
+    <Content Include="images\Indian1.jpg" />
+    <Content Include="images\istockphoto-1081422898-612x612.jpg" />
+    <Content Include="images\Italian Cuisine.jpg" />
+    <Content Include="images\Japanese.jpg" />
+    <Content Include="images\MOTC_HenryMatteo_FreshPasta.jpg" />
+    <Content Include="images\Pastry Catherine Nilsen.jpg" />
+    <Content Include="images\pastry tartlet.jpg" />
     <Content Include="index.html" />
     <Content Include="JavaScript\mainjs.js" />
-    <Content Include="Team.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
