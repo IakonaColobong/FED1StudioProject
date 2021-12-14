@@ -17,8 +17,9 @@ div .header-logo img {
 
 
 .icon {
+    position: relative;
+    top: 10px;
     float: right;
-    
     width: 5%;
     height: auto;
 }
@@ -57,7 +58,6 @@ div .header-logo img {
     width: 100%;
     display: block;
     text-decoration: none;
-    
 }
 
     .navBar ul li {
@@ -65,20 +65,33 @@ div .header-logo img {
         font-size: 25px;
         top: 170px;
         left: 100px;
-        
     }
-    
-    a {
-        text-decoration: none;
-    }
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
 
 .links {
     display: block;
     word-spacing: 20px;
     letter-spacing: 10px;
-    
+}
+#meta {
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
+#twitter {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#instagram {
+    padding-right: 10px;
+    padding-left: 10px;
+}
     .links li:hover {
         background-color: gray;
         color: white;
@@ -124,15 +137,61 @@ div .header-logo img {
 
 .why {
     position: relative;
-    top: 30%;
-    left: 50%;
-    width: 100%;
+    top: 10%;
+    /*left: 25%;*/
+    /*width: 100%;*/
 }
 
     .why #whyChoose {
         display: block;
-        font-size: 52px;
+        font-size: 3em;
         text-align: center;
         padding: 50px;
-        
     }
+
+    .chooseIntro .introPara1 {
+        font-size: 1.3em;
+        padding-bottom: 60px;
+        text-align: justify;
+    }
+.chooseIntro .introPara2 {
+    position: relative;
+    top: 80px;
+    font-size: 1.3em;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    text-align: justify;
+}
+   
+
+#asianPrep {
+    float: left;
+    width: 25%;
+    height: auto;
+    padding-right: 20px;
+
+}
+
+#greekPrep {
+    position: relative;
+    top: 100px;
+    float: right;
+    width: 25%;
+    height: auto;
+    padding-left: 20px;
+}
+
+footer{
+   
+    display: block;
+
+}
+a .fIcon {
+    position: relative;
+    top: 10px;
+    float: right;
+    width: 45%;
+    height: auto;
+    width: 10px;
+    height: auto;
+}

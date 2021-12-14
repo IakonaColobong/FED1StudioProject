@@ -67,15 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="classes" />
-    <None Include="contact" />
+    <Content Include="classes.html" />
+    <Content Include="contact.html" />
     <Content Include="CSS\StyleSheet.css" />
     <Content Include="images\16707.png" />
     <Content Include="images\facebook-icon-logo-C61047A9E7-seeklogo.com.png" />
     <Content Include="images\instagram-logo-041EABACE1-seeklogo.com.png" />
     <Content Include="images\logo2.jpg" />
     <Content Include="images\Pastry.webp" />
-    <None Include="team" />
+    <Content Include="team.html" />
     <Content Include="images\1200px-Sushi_chef_Masayoshi_Kazato_02.jpg" />
     <Content Include="images\1529690483732.jpeg" />
     <Content Include="images\200522-fine-dining-al-0903.jpg" />
